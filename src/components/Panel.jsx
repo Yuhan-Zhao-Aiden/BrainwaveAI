@@ -1,6 +1,7 @@
 import React from "react";
 import { gradient } from "../assets";
 import Button from "./Button.jsx";
+import { aircraft, eiffel_tower } from "../assets";
 
 const Panel = () => {
   return (
@@ -17,7 +18,19 @@ const Panel = () => {
           <Button className=" w-auto">Shop now</Button>
         </div>
       </div>
-      <img src={gradient} alt="" className="w-[500px]" />
+      <div className="relative">
+        <img src={gradient} alt="" className="w-[500px]" />
+        <img
+          src={aircraft}
+          alt=""
+          className="w-[500px] absolute top-10"
+        />
+        <img
+          src={eiffel_tower}
+          alt=""
+          className="w-[300px] absolute bottom-4"
+        />
+      </div>
     </section>
   );
 };

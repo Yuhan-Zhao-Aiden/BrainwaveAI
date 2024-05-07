@@ -20,6 +20,7 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import aircraft from "./aircraft.svg";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
@@ -74,6 +75,7 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import eiffel_tower from "./eiffel_tower.svg";
 
 export {
   brainwave,
@@ -144,4 +146,6 @@ export {
   instagram,
   telegram,
   twitter,
+  aircraft,
+  eiffel_tower,
 };
