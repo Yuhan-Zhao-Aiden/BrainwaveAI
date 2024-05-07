@@ -1,5 +1,6 @@
 import ButtonGradient from "./assets/svg/ButtonGradient.jsx";
 import Header from "./components/Header.jsx";
+import Panel from "./components/Panel.jsx";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
         <Header />
       </div>
       <ButtonGradient />
+      <Panel />
     </>
   );
 };
